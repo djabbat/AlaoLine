@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alaoline"
+version = "1.0.0"
+description = "N2-atmosphere short-sprouting for bioavailable iron from wheat (process model, 2^(5-1) design, RSM)."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Georgia Longevity Alliance" }]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "scipy>=1.10"]
+
+[project.scripts]
+alaoline = "alaoline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["alaoline*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
