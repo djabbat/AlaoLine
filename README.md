@@ -1,5 +1,7 @@
 # AlaoLine
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23404808.svg)](https://doi.org/10.5281/zenodo.23404808)
+
 **N₂-atmosphere short-sprouting for bioavailable iron from wheat.**
 
 AlaoLine is an open-source software package for the modelling, design and
